@@ -1,0 +1,191 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  border:0px solid grey;
+}
+p{
+  font-family: 'Changa', sans-serif;
+  color: black;
+}
+body{
+  background-color:lightgoldenrodyellow;
+  text-align: center;
+  font-size: 40px;
+  color:crimson;
+  line-height:1.5;
+}
+/* header*/
+header div div nav a{
+  color:darkorange;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  text-transform: capitalize;
+  font-size: 50px;
+  padding-left: 5%;
+  padding-right: 7%;
+}
+header div div nav a:hover{
+  color:mediumvioletred;
+}
+header{
+  background-image:url('../images/bw.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  margin-bottom: 20%;
+  height:100vh;
+}
+header div div h2{
+  color:black;
+}
+nav{
+  text-align: right;
+}
+.im2{
+  width:100%;
+  left:0%;
+  bottom:1000px;
+  height:100%;
+
+}
+.im1{
+  width:100%;
+  right:0px;
+  bottom: 1000px;
+  height: 100%;
+}
+
+.sc1{
+  right:425px;
+  bottom: 10px;
+}
+.sc2{
+  height: 100vh;
+  width: 5vh;
+}
+.hom{
+font-size: 60px;
+bottom: 100px
+right:800px;
+}
+.hom h2{
+  font-size: 60px;
+}
+/*section*/
+h2{
+  color:olive;
+  font-family: 'Acme', sans-serif;
+}
+h1{
+  font-size: 70px;
+  color:yellowgreen;
+  font-family: 'Acme', sans-serif;
+}
+.bout{
+  font-size: 35px;
+  text-align: justify;
+  color: teal;
+}
+.rest{
+  text-align: justify;
+  color:cyan;
+}
+/* skills section*/
+#Skills p{
+  font-size: 20px;
+  color:black;
+}
+#skills i{
+  color: burlywood
+}
+#Skills h3{
+  color:navy;
+}
+/*footer*/
+footer nav a{
+  display:flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: seagreen;
+  height:15vh;
+}
+footer form{
+  background-color:lemonchiffon;
+}
+footer form:hover{
+  color:crimson;
+  background-color:olivedrab;
+}
+.border{
+  border: 5px double lightblue;
+}
+label:hover{
+  color:crimson;
+  font-size:30px;
+}
+input:hover{
+  color:darkred;
+}
+#Contact-ME:hover{
+  color:crimson;
+}
+#About div p{
+  font-size: 40px;
+  margin-bottom: 10%;
+}
+#Contact-Me div nav:hover{
+  color:cyan;
+}
+input{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  background-color:lightyellow;
+}
+textarea{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  background-color:aliceblue;
+  margin:2%;
+  color: darkred;
+}
+button{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+  colour:cyan;
+  background-color: burlywood;
+}
+button:hover{
+  color: darkcyan;
+  background-color: crimson;
+}
+.number{
+  font-size:30px;
+}
+/* footer Navs*/
+.nav1{
+  text-align:left;
+  margin-top:20%;
+  background-color: burlywood;
+}
+.nav1 a:hover{
+  background-color:red;
+}
+.nav1 i:hover{
+  color: burlywood;
+}
+.nav2 a:hover{
+  background-color:red;
+}
+.nav2 i:hover{
+  color:burlywood;
+}
+.nav2{
+  margin-top:20%;
+  color: violet;
+  background-color: burlywood;
+}
+
+/* RESPONSIVE STYLES*/
