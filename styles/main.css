@@ -40,6 +40,7 @@ body{
 }
 .inbtw p a:hover{
   color:cyan;
+  font-size: 20px;
 }
 header{
   background-image:url('../images/cpu.jpg');
@@ -66,6 +67,7 @@ nav{
   bottom:1000px;
   height:30vh;
   margin-bottom: 5%;
+  margin-left:10%;
 }
 .im1{
   width:45vh;
@@ -73,6 +75,7 @@ nav{
   bottom: 1000px;
   height: 30vh;
   margin-bottom: 5%;
+  margin-left: 10%;
 }
 .hom{
 font-size: 60px;
@@ -99,7 +102,7 @@ h1{
   font-size: 18px;
   text-align: justify;
   color: teal;
-  margin-bottom: 5%;
+  margin-bottom: auto;
 }
 .rest{
   text-align: justify;
@@ -136,6 +139,7 @@ footer nav a{
   text-decoration: none;
   color:crimson;
   height:15vh;
+  font-size: 30px;
 }
 footer form{
   background-color:black;
@@ -186,11 +190,11 @@ button:hover{
 }
 .nav1 i:hover{
   color: burlywood;
-  font-size: 30px;
+  font-size: 40px;
 }
 .nav2 i:hover{
   color:burlywood;
-  font-size: 30px;
+  font-size: 40px;
 }
 .nav2{
   margin-top:20%;
@@ -256,8 +260,14 @@ button:hover{
 .animate{
   transition: all 172ms ease-out;
 }
-
-
+.skls{
+  text-decoration:none;
+  color: cyan;
+}
+.skls:hover{
+  color: crimson;
+  font-size: 20px;
+}
 /* MOBILE NAV */
 
 
@@ -270,10 +280,10 @@ button:hover{
     display: none;
   }
   .im2{
-    width: 100vw;
+    width:50vw;
   }
   .im1{
-    width: 100vw;
+    width: 50vw;
   }
 }
 @media only screen and (min-width:1110px) {
@@ -346,6 +356,7 @@ button:hover{
     }
     #Contact-Me div div nav a i{
       color: cyan;
+      display:none;
     }
       #Contact-Me div div nav a i:hover{
         color:burlywood;
@@ -381,7 +392,6 @@ button:hover{
       font-size: 20px;
       margin-left: 20%;
     }
-}
 @media only screen and (max-width: 800px) {
   .im1{
     width: 100vw;
