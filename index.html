@@ -1,59 +1,36 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Acme|Changa" rel="stylesheet">
-    <!-- link to stylesheet for css -->
-    <link rel="stylesheet" href="styles/main.css">
-    <!--Viewport meta tag Link-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Link to gridlex-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.6.1/gridlex.min.css">
-    <!-- Link to fontawesome-->
-    <script src="https://use.fontawesome.com/29f986a49e.js"></script>
-  </head>
-  <body>
-    <header id="Home">
-      <div class="grid-center">
-        <div class="col-12_sm-12 nav">
-            <nav>
-              <a href="#Home">Home</a>
-              <a href="#About">About</a>
-              <a href="#Skills">My Skills</a>
-              <a href="#Contact-Me">Contact Me</a>
-
-            </nav>
-        </div>
-        <div class="col-12 gird-center hom">
-            <div class="col-6">
-              <h1>Laurent Kirke-Smith </h2>
-              <h2>Web Designer</h2>
-            </div>
-        </div>
-        <div class="col-3_sm-6">
-          <img src="images/g1.gif" class="im1" alt="a gif of me and somme kLab students and our teacher"/>
-        </div>
-        <div class="col-6">
-          <!-- Empty div - this is for space between images-->
-        </div>
-        <div class="col-3_sm-6">
-          <img src="images/g2.gif" class="im2" alt="a gif of some of my achievements">
-        </div>
-    </div>
-    </header>
+---
+layout: default
+title: Intro
+---
+    <section>
+      <div class="grid">
+          <div class="col-3_sm-12_lg-12">
+            <img src="images/g1.gif" class="im1" alt="a gif of me and somme kLab students and our teacher"/>
+          </div>
+          <div class="col-6_sm-12_lg-12 inbtw">
+            <!-- Empty div - this is for space between images-->
+            <h2> Who am i?</h2>
+            <p> I am front end developer that is new to programming and is looking for opportunities to gain more experience. Still a student and would gladly take a free internship to work full time during holidays. If interested  keep readind to know more <a href="#About">about me</a> and to <a href="#Contact-Me">contact </a> me.</p>
+          </div>
+          <div class="col-3_sm-12_lg-12">
+            <img src="images/g2.gif" class="im2" alt="a gif of some of my achievements">
+          </div>
+      </div>
+    </section>
     <section id="About">
       <div class="grid-spaceAround">
-        <div class="col-5_sm-10 bout">
+        <div class="col-5_sm-10_lg-5 bout">
           <h2> About Me</h2>
-          <p>MY full name is Mbabazi Thierry Laurent Kirke-Smith and I am currently 15 and studying in Riviera High School. I have had a passion for IT since I first touched a computer and thanks to Brit Hemming and kLab I was able to further pursue my dream and made it a reality. I am honest and hardworking and I like challenges. I work well alone and I work just as well in a group. I am now a web designer/ developer as of being able to design and create a wireframe, write it's HTML and finalise it's CSS.  </p>
+          <p>MY full name is Mbabazi Thierry Laurent Kirke-Smith and I am currently 15 and studying in Riviera High School. I have had a passion for IT since I first touched a computer and thanks to Brit Hemming and kLab I have been able to further pursue my dream and make it a reality. I am honest, hardworking and I like challenges. I work well alone and I work even better in a group. I am now a web designer/developer who is able to design and create a wireframe, write it's HTML and finalise its CSS.I can also operate a statistics site generator called Jekyll, JavaScript, and JavaScript library called JQuery. </p>
         </div>
-        <div class="col-5_sm-11 rest">
+        <div class="col-5_sm-11_lg-5 rest">
             <div>
               <h2>What I Do </h2>
-              <p> I can creat a website from scratch for an individual or a firm and apply their disired look/design and if granted permission, make a design of my own.</p>
+              <p> I can create a website from scratch for an individual or a firm and apply their disired look/design and if granted permission, make a design of my own.</p>
             </div>
             <div>
               <h2> My Goals</h2>
-              <p> My goal is to become a trusted and higly recconmendable programer who delivers first class material for his clients. I don't submit work until I am personally happy with it and I have a great respect for time.In short, I want an impeckable reputation and satisfied clients throughout my career.</p>
+              <p>My goal is to become a trusted and highly recommendable programmer who delivers first class material for his clients. I don't submit work until I am personally happy with it and I have a great respect for time. In short, I want an impeccable reputation and satisfied clients throughout my career.</p>
           </div>
         </div>
       </div>
@@ -61,54 +38,23 @@
     <section id="Skills">
       <h2>My Skills</h2>
       <div class="grid-spaceAround">
-        <div class="col-1"><i class="fa fa-users" aria-hidden="true"></i></div>
-        <div class="col-3"><h3>Leadership</h3></div>
-        <div class="col-5"><p>I can categorise myself as a natural leader being the first born child in my family and the first grandchild on both sides as well. In year 6 I was elected class representative to the student council and have been captain for multiple P.E lessons and of the under 15 boys basketball team.I have also led my class in math preparations before this year's major Cambridge Checkpoint Exams.  </p></div>
+        <div class="col-1_lg-1"><i class="fa fa-users" aria-hidden="true"></i></div>
+        <div class="col-3_sm-7_lg-2"><h3>Leadership</h3></div>
+        <div class="col-5_sm-10_lg-8"><p>I can categorise myself as a natural leader being the first born child in my family and the first grandchild on both sides as well. In year 6 I was elected class representative to the student council and have been captain for multiple P.E lessons and of the under 15 boys basketball team. I have also led my class in math preparations before this year's major Cambridge Checkpoint Exams.  </p></div>
       </div>
       <div class="grid-spaceAround">
-        <div class="col-1"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
-        <div class="col-3"><h3>Fast Learner</h3></div>
-        <div class="col-5"><p> I in my class have never been the one to trail behind others, I am always attentative in and in result, I tend to end up helping others get a grip in the days new knowledge.</p></div>
+        <div class="col-1_lg-1"><i class="fa fa-lightbulb-o" aria-hidden="true"></i></div>
+        <div class="col-3_sm-7_lg-2"><h3>Fast Learner</h3></div>
+        <div class="col-5_sm-10_lg-8"><p>I have never been the one to trail behind others. I am always attentive and in result, I tend to end up helping others get an idea in the day's new knowledge. </p></div>
       </div>
       <div class="grid-spaceAround">
-        <div class="col-1"><i class="fa fa-users" aria-hidden="true"></i></i></div>
-        <div class="col-3"><h3>Group Worker</h3></div>
-        <div class="col-5"><p> While at times I might be better off working alone, I also tend to do well in groups. I like  sharing and gaining knowledge from others and I also like to contribute to the group, for the groups well-being.</p></div>
+        <div class="col-1_lg-1"><i class="fa fa-users" aria-hidden="true"></i></i></div>
+        <div class="col-3_sm-7_lg-2"><h3>Group Worker</h3></div>
+        <div class="col-5_sm-10_lg-8"><p>While at times I might be strong working alone, I work much better whilst in a group. I like sharing and gaining knowledge from others and I also like to contribute to the group, for the group’s well-being.</p></div>
       </div>
       <div class="grid-spaceAround">
-        <div class="col-1"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
-        <div class="col-3"><h3>Designer/Artist</h3></div>
-        <div class="col-5"><p> I for one like to see beauty in what I create, be it from art class or to my general life. I also above all, enjoy doing this. I have always had a passion for art and I still do, it brings me joy to see balance and ideas that fit together.</p></div>
+        <div class="col-1_lg-1"><i class="fa fa-paint-brush" aria-hidden="true"></i></div>
+        <div class="col-3_sm-7_lg-2"><h3>Designer/Artist</h3></div>
+        <div class="col-5_sm-10_lg-8"><p>I like to see beauty in what I create, be it from art class or from my general life. I also, above all, enjoy doing this. I have always had a passion for art and I still do, it brings me joy to see balance and ideas that fit together. </p></div>
       </div>
     </section>
-    <footer id="Contact-Me">
-      <div class="border grid">
-          <div class="col-2">
-            <nav class="nav1">
-              <a href="https://web.facebook.com/?_rdc=1&_rdr"><i class="fa fa-facebook-square col-2" aria-hidden="true"></i></a>
-              <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram col-2" aria-hidden="true"></i></a>
-              <a href="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fwelcome"><i class="fa fa-snapchat-ghost col-2" aria-hidden="true"></i></a>
-            </nav>
-          </div>
-          <div class="col-8">
-            <form method="POST" action="http://formspree.io/lauwrencemt@gmail.com" class=" =links grid-center">
-              <label class="col-7_sm-9">Email</label>
-              <input type="email" name="email" class="col-7_sm-9" placeholder="Write your email here"/>
-              <label class="col-7_sm-9">Comment</label>
-              <textarea name="message" class="col-7_sm-9" placeholder="Write your comments here" ></textarea>
-              <button type="submit" color="crimson" class="button press col-7_sm-9">Send</button>
-              <label class="col-7 number">Tel:+250 733 721 753
-                Wapp:+265 993 553 087</label>
-            </form>
-          </div>
-          <div class="col-2">
-            <nav class="nav2">
-              <a href="https://plus.google.com/u/0/"><i class="fa fa-google-plus col-2" aria-hidden="true"></i></a>
-              <a href="https://accounts.google.com/AccountChooser/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fca%2F&service=mail&rm=false&ltmpl=default&scc=1&ss=1&osid=1&emr=1&flowName=GlifWebSignIn&flowEntry=AddSession"><i class="fa fa-envelope col-2" aria-hidden="true"></i></a>
-              <a href="https://www.pinterest.com/login/"><i class="fa fa-pinterest-p col-2" aria-hidden="true"></i></a>
-            </nav>
-          </div>
-        </div>
-    </footer>
-  </body>
-</html>

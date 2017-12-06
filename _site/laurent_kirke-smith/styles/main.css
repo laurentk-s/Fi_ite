@@ -1,0 +1,412 @@
+/*All*/
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+  border:0px solid grey;
+}
+p{
+  font-family: 'Changa', sans-serif;
+  color:cyan;
+  font-size: 18px;
+}
+body{
+  background-color:black;
+  text-align: justify;
+  font-size: 18px;
+  color:crimson;
+  line-height:1.5;
+}
+/*IDs*/
+#Contact-ME:hover{
+  color:crimson;
+}
+#About div p{
+  font-size:18px;
+  margin-bottom: 10%;
+}
+#Contact-Me div nav:hover{
+  color:cyan;
+}
+/* header*/
+.inbtw p{
+  color: crimson;
+  text-align: justify;
+
+}
+.inbtw p a{
+  text-decoration: none;
+  color:crimson;
+}
+.inbtw p a:hover{
+  color:cyan;
+}
+header{
+  background-image:url('../images/cpu.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  margin-bottom:5%;
+  height:100vh;
+  text-align: center;
+}
+header div div h2{
+  color:teal;
+}
+nav{
+  text-align: right;
+}
+.mob-show{
+  display:none;
+}
+.im2{
+  width:45vh;
+  left:0%;
+  bottom:1000px;
+  height:30vh;
+  margin-bottom: 5%;
+}
+.im1{
+  width:45vh;
+  right:0px;
+  bottom: 1000px;
+  height: 30vh;
+  margin-bottom: 5%;
+}
+.hom{
+font-size: 60px;
+bottom: 100px
+right:800px;
+}
+.hom h2{
+  font-size: 60px;
+  color: lime;
+}
+/*section*/
+h2{
+  color:lime;
+  font-family: 'Signika', sans-serif;
+  text-align: center;
+}
+h1{
+  font-size:140px;
+  color:yellowgreen;
+  font-family: 'Signika', sans-serif;
+  margin-top: 10vh;
+}
+.bout{
+  font-size: 18px;
+  text-align: justify;
+  color: teal;
+  margin-bottom: 5%;
+}
+.rest{
+  text-align: justify;
+  color:cyan;
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+#Home div nav a{
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 5%;
+  margin-right: 10%;
+  color: darkorange;
+}
+#Home div nav a:hover{
+  color:darkviolet;
+}
+/* skills section*/
+#Skills p{
+  font-size: 18px;
+  color:cyan;
+  line-height:2;
+}
+#skills i{
+  color:lime;
+}
+#Skills h3{
+  color:darkcyan;
+}
+/*footer*/
+footer nav a{
+  display:flex;
+  flex-direction: column;
+  text-decoration: none;
+  color:crimson;
+  height:15vh;
+}
+footer form{
+  background-color:black;
+  text-align: center;
+}
+
+.border{
+  border: 5px double lightblue;
+}
+label:hover{
+  color:crimson;
+  font-size:30px;
+}
+input:hover{
+  color:darkred;
+}
+input{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  background-color:lightyellow;
+}
+textarea{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 30px;
+  background-color:aliceblue;
+  margin:2%;
+  color: darkred;
+}
+button{
+  font-family: 'Marmelad', sans-serif;
+  font-size: 20px;
+  color:cyan;
+  background-color:whitesmoke;
+}
+button:hover{
+  color: darkcyan;
+  background-color: crimson;
+}
+.number{
+  font-size:30px;
+}
+/* footer Navs*/
+.nav1{
+  text-align:left;
+  margin-top:20%;
+  background-color:black;
+
+}
+.nav1 i:hover{
+  color: burlywood;
+  font-size: 30px;
+}
+.nav2 i:hover{
+  color:burlywood;
+  font-size: 30px;
+}
+.nav2{
+  margin-top:20%;
+  color: violet;
+  background-color:black;
+}
+
+
+/*Mobile Nav Styles*/
+#container{
+  background-color: black;
+}
+#mobile-navigation a{
+  color:crimson;
+  text-decoration: none;
+}
+#mobile-navigation a:hover{
+  color:burlywood;
+}
+#mobile-navigation i{
+  color:red;
+}
+#mobile-navigation i:hover{
+  color: burlywood;
+}
+/* MOBILE NAV */
+#mobile-navigation{
+  position: fixed;
+  width: 40vw;
+  height: 105vh;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(.96);
+}
+#container.mobile-menu-visible #mobile-navigation{
+  visibility: visible;
+  opacity: 1;
+  transform: scale(1);
+  background: teal;
+}
+#home div nav a i{
+  color: darkorange;
+}
+/* HELPERS */
+.padding{
+  padding: 40px;
+}
+.margin-top-bottom{
+  margin: 40px 0;
+}
+.round-corners{
+  border-radius: 4px;
+}
+.bg-yellow{
+  background-color: burlywood;
+}
+.center{
+  text-align: center;
+}
+.animate{
+  transition: all 172ms ease-out;
+}
+
+
+/* MOBILE NAV */
+
+
+/* RESPONSIVE STYLES*/
+@media only screen and (max-width: 1100px) {
+  header div div nav {
+    font-size: 40px;
+  }
+  #Home div div nav{
+    display: none;
+  }
+  .im2{
+    width: 100vw;
+  }
+  .im1{
+    width: 100vw;
+  }
+}
+@media only screen and (min-width:1110px) {
+  #home{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .mob-hide{
+      display:none;
+    }
+    .mob-show{
+      display:block;
+    }
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: white;
+    }
+    p{
+      font-size: 15px;
+      line-height: 1;
+      text-align:justify;
+    }
+    h2{
+      font-size:40px;
+    }
+    h1{
+      font-size:40px;
+    }
+    header div div nav a{
+      font-size: 20px;
+      padding-left: 1%;
+      margin:2%;
+      display: flex;
+      flex-direction:row;
+      justify-content: space-around;
+    }
+    header div div div h2{
+      font-size: 25px;
+      text-align: center;
+    }
+    header div div div h1{
+      text-align: center;
+      font-size: 30px;
+    }
+    section div div img{
+      width: 50%;
+      height: 30vh;
+    }
+    section div div p{
+      font-size: 20px;
+      text-align:center;
+    }
+    #About div div p{
+      font-size: 20px;
+      text-align: justify;
+    }
+    #Skills div div p{
+      font-size: 20px;
+      text-align:justify;
+      line-height: 1;
+    }
+    #Skills div h3{
+      font-size:20px;
+      text-align: center;
+      margin-left: -50%;
+    }
+    #Contact-Me div div nav a i{
+      color: cyan;
+    }
+      #Contact-Me div div nav a i:hover{
+        color:burlywood;
+      }
+    footer div form{
+      background: white;
+      font-size: 20px;
+    }
+    footer div form label{
+      font-size: 20px;
+      text-align: center;
+    }
+    .number{
+      font-size: 13px;
+      text-align: justify;
+    }
+    #Contact-Me div div nav{
+      background: white;
+    }
+    #Home div div h2{
+      font-size: 30px;
+    }
+    #Skills div div i{
+      display: none;
+    }
+    .im1{
+      width: 100vw;
+    }
+    .im2{
+      width:100vw;
+    }
+    .hed{
+      font-size: 20px;
+      margin-left: 20%;
+    }
+}
+@media only screen and (max-width: 800px) {
+  .im1{
+    width: 100vw;
+  }
+  .im2{
+    width: 100vw;
+  }
+  section div div p{
+    text-align:justify;
+    margin-left: auto;
+    padding: 2%;
+  }
+  h3{
+    font-size: 30px;
+  }
+  footer div div form{
+    padding-bottom:auto;
+  }
+  header div div nav a{
+    font-size: 30px;
+    text-align: justify;
+    margin-right: 7%;
+    padding-left:2%;
+  }
+  header{
+    height: 70vh;
+  }
+}
